@@ -1,2 +1,10 @@
 # First-unique-character
 Today's Task
+c=0
+for i in range(len(s)):
+     if s.count(s[i])==1:
+          c+=1
+          return i
+          break
+if c==0:
+    return -1
